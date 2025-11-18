@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL, "rus");
+
+    int A;
+    float B;
+
+    cout << "Введите 2 числа:\t" << "\nпервое - целое\t";
+    cin >> A;
+    cout << "второе- любое\t";
+    cin >> B;
+
+    float Summa;
+    Summa = A + B;
+
+    cout << "Сумма = " << Summa;
+    cout << endl << "\tПОКА !";
+
+    system("PAUSE");
+
+    return 0;
+}
